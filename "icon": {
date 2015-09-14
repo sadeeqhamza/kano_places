@@ -1,0 +1,7 @@
+     "icon": {
+            "iconUrl": "/img/food.png",
+            "iconSize": [100, 100],
+            "iconAnchor": [50, 50],
+            "popupAnchor": [0, -55],
+            "className": "dot"
+        }

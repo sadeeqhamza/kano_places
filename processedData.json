@@ -1,0 +1,773 @@
+[
+{
+    "group_name": "Bank",
+    "place_name": "Sterling Bank",
+    "services": "Bank Services",
+    "lat": "12.008141",
+    "lng": "8.551455",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "Access Bank",
+    "services": "Bank Services",
+    "lat": "12.008141",
+    "lng": "8.551455",
+    "rating": "3",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "GT Bank",
+    "services": "Bank Services",
+    "lat": "12.008141",
+    "lng": "8.551455",
+    "rating": "5",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "First Bank",
+    "services": "Bank Services",
+    "lat": "12.007932",
+    "lng": "8.544679",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+},{
+    "group_name": "Bank",
+    "place_name": "Sky Bank",
+    "services": "Bank Services",
+    "lat": "12.007463",
+    "lng": "8.548213",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "City Bank",
+    "services": "",
+    "lat": "12.007280",
+    "lng": "8.541980",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "Sterling Bank",
+    "services": "Bank Services",
+    "lat": "12.007000",
+    "lng": "8.542210",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "Skybank",
+    "services": "Bank Services",
+    "lat": "12.009200",
+    "lng": "8.543390",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "Unity Bank ",
+    "services": "Bank Services",
+    "lat": "12.007000",
+    "lng": "8.542210",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "Central Bank Of Nigeria",
+    "services": "Bank Services",
+    "lat": "12.007000",
+    "lng": "8.542210",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "First Bank",
+    "services": "Bank Services",
+    "lat": "12.007000",
+    "lng": "8.542210",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Bank",
+    "place_name": "Union Bank",
+    "services": "Bank Services",
+    "lat": "12.004610",
+    "lng": "8.544220",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/bank.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Bank"
+    }
+}, {
+    "group_name": "Food",
+    "place_name": "Yahuza Suya Spot",
+    "services": "Suya",
+    "lat": "11.989980",
+    "lng": "8.561100",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/food.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Food"
+    }
+}, {
+    "group_name": "Food",
+    "place_name": "Dalal",
+    "services": "Burgers & Softdrinks",
+    "lat": "12.002790",
+    "lng": "8.541750",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/food.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Food"
+    }
+}, {
+    "group_name": "Food",
+    "place_name": "Chikenza",
+    "services": "Suya & Softdrinks",
+    "lat": "11.994140",
+    "lng": "8.551740",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/food.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Food"
+    }
+}, {
+    "group_name": "Food",
+    "place_name": "7 30",
+    "services": "Food & Softdrinks",
+    "lat": "11.990980",
+    "lng": "8.551400",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/food.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Food"
+    }
+}, {
+    "group_name": "Government",
+    "place_name": "Government House ",
+    "services": "",
+    "lat": "11.984011",
+    "lng": "8.553434",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/government.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Government"
+    }
+}, {
+    "group_name": "Internet Cafe",
+    "place_name": "Al Ciroma Cafe ",
+    "services": "online registration",
+    "lat": "12.025510",
+    "lng": "8.541360",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/cafe.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Internet Cafe"
+    }
+}, {
+    "group_name": "Internet Cafe",
+    "place_name": "Al Ciroma Cafe ",
+    "services": "online registration",
+    "lat": "12.025250",
+    "lng": "8.541580",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/cafe.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Internet Cafe"
+    }
+}, {
+    "group_name": "Internet Cafe",
+    "place_name": "Gumel cafe",
+    "services": "",
+    "lat": "11.974150",
+    "lng": "8.567400",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/cafe.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Internet Cafe"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Amin Dean Mosque ",
+    "services": "Islam ",
+    "lat": "12.001937",
+    "lng": "8.567021",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "El tengi",
+    "services": "Medication, Pharmacy",
+    "lat": "11.987350",
+    "lng": "8.551647",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Roxy Amusement Park",
+    "services": "Rides for kids",
+    "lat": "11.989381",
+    "lng": "8.541828",
+    "rating": "0",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+},{
+    "group_name": "Other",
+    "place_name": "Classic Barbers ",
+    "services": "Male haircut, Fades",
+    "lat": "12.003034",
+    "lng": "8.561274",
+    "rating": "5",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Seasweet",
+    "services": "Burgers, Softdrinks",
+    "lat": "11.982320",
+    "lng": "8.569250",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "K Suite",
+    "services": "hetol",
+    "lat": "11.998110",
+    "lng": "8.552700",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Karota Office",
+    "services": "",
+    "lat": "12.018050",
+    "lng": "8.552830",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Ammasco International",
+    "services": "Engine oil factory",
+    "lat": "12.020490",
+    "lng": "8.550000",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Honda place ",
+    "services": "",
+    "lat": "12.020490",
+    "lng": "8.550000",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Soso Wearz ",
+    "services": "Boutique",
+    "lat": "12.025670",
+    "lng": "8.538090",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "King Dreams",
+    "services": "Boutique",
+    "lat": "12.022950",
+    "lng": "8.538950",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Wake Up",
+    "services": "Boutique",
+    "lat": "12.015770",
+    "lng": "8.537630",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Franco Sport",
+    "services": "",
+    "lat": "12.016060",
+    "lng": "8.537670",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Large Format",
+    "services": "printing",
+    "lat": "12.013810",
+    "lng": "8.540180",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "International Clinics And Hospital",
+    "services": "Hospital",
+    "lat": "12.009200",
+    "lng": "8.543390",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "PZ Cussons plc",
+    "services": "",
+    "lat": "12.007000",
+    "lng": "8.542210",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "LG kano",
+    "services": "life's good",
+    "lat": "12.003080",
+    "lng": "8.541760",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "MTN Office",
+    "services": "",
+    "lat": "12.003080",
+    "lng": "8.541760",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Grand Central Hotel",
+    "services": "Hotel",
+    "lat": "12.004610",
+    "lng": "8.544220",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Etisalat office ",
+    "services": "Help",
+    "lat": "12.001730",
+    "lng": "8.542420",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Prince Hotel",
+    "services": "",
+    "lat": "11.996150",
+    "lng": "8.549080",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Abdullahi Wase Specialist Hospital",
+    "services": "",
+    "lat": "12.000470",
+    "lng": "8.547290",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Other",
+    "place_name": "Meena Event Center",
+    "services": "",
+    "lat": "11.986820",
+    "lng": "8.547470",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/other.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Other"
+    }
+}, {
+    "group_name": "Petrol Station",
+    "place_name": "Oando",
+    "services": "Petrol & Diesel",
+    "lat": "12.008141",
+    "lng": "8.551455",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/petrol.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Petrol Station"
+    }
+}, {
+    "group_name": "Petrol Station",
+    "place_name": "Total",
+    "services": "",
+    "lat": "12.022950",
+    "lng": "8.538950",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/petrol.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Petrol Station"
+    }
+}, {
+    "group_name": "Petrol Station",
+    "place_name": "AA Rano",
+    "services": "",
+    "lat": "12.025250",
+    "lng": "8.541580",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/petrol.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Petrol Station"
+    }
+}, {
+    "group_name": "Petrol Station",
+    "place_name": "A B Y Petroleum",
+    "services": "",
+    "lat": "12.013810",
+    "lng": "8.540180",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/petrol.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Petrol Station"
+    }
+}, {
+    "group_name": "Petrol Station",
+    "place_name": "AA RANO",
+    "services": "",
+    "lat": "12.003080",
+    "lng": "8.541760",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/petrol.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Petrol Station"
+    }
+}, {
+    "group_name": "Photo/Editing Studio",
+    "place_name": "Arewa Studio",
+    "services": "Photo editing",
+    "lat": "11.987350",
+    "lng": "8.551647",
+    "rating": "3",
+    "icon": {
+        "iconUrl": "assets/studio.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Studio"
+    }
+}, {
+    "group_name": "Photo/Editing Studio",
+    "place_name": "Motion Picture",
+    "services": "Photo editing & Film Editing",
+    "lat": "11.980684",
+    "lng": "8.558662",
+    "rating": "5",
+    "icon": {
+        "iconUrl": "assets/studio.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Studio"
+    }
+}, {
+    "group_name": "Recharge Card",
+    "place_name": "Recharge Card",
+    "services": "MTN, GLO, Airtell , Etisala",
+    "lat": "11.987350",
+    "lng": "8.551647",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/topup.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Recharge Card"
+    }
+}, {
+    "group_name": "Saloon",
+    "place_name": "Beauty world ",
+    "services": "Saloon And Boutique",
+    "lat": "12.016060",
+    "lng": "8.537670",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/saloon.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "Saloon"
+    }
+}, {
+    "group_name": "School",
+    "place_name": "Nigerian Turkish International School",
+    "services": "Education",
+    "lat": "11.980440",
+    "lng": "8.559027",
+    "rating": "3",
+    "icon": {
+        "iconUrl": "assets/school.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "School"
+    }
+}, {
+    "group_name": "School",
+    "place_name": "Crescent International School",
+    "services": "Education, Football pitch ",
+    "lat": "11.991944",
+    "lng": "8.564284",
+    "rating": "5",
+    "icon": {
+        "iconUrl": "assets/school.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "School"
+    }
+}, {
+    "group_name": "School",
+    "place_name": "Bin Iyaye ",
+    "services": "",
+    "lat": "11.984830",
+    "lng": "8.565860",
+    "rating": "4",
+    "icon": {
+        "iconUrl": "assets/school.png",
+        "iconSize": [48, 48],
+        "iconAnchor": [50, 50],
+        "popupAnchor": [0, -55],
+        "className": "School"
+    }
+}
+]

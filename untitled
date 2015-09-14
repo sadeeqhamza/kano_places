@@ -1,0 +1,5 @@
+$(document).ready(function() {
+var progContext = document.getElementById('programmingChart').getContext('2d');
+var skillsChart = new Chart(context).Pie(pieData);
+
+});

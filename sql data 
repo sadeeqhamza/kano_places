@@ -1,0 +1,14 @@
+SELECT
+    sid0793_kanoDatabase.group.group_name,
+    sid0793_kanoDatabase.locations.place_name,
+    sid0793_kanoDatabase.locations.services,
+    sid0793_kanoDatabase.locations.lat,
+    sid0793_kanoDatabase.locations.lng,
+    sid0793_kanoDatabase.locations.rating
+FROM
+    sid0793_kanoDatabase.group
+INNER JOIN
+    sid0793_kanoDatabase.locations
+ON
+    (
+        sid0793_kanoDatabase.group.group_id = sid0793_kanoDatabase.locations.group_id) ;

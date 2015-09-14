@@ -1,0 +1,514 @@
+{  
+   "type":"FeatureCollection",
+    "features":[  
+      {  
+        "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Sterling Bank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.551455,
+         12.008141
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Access Bank",
+      "services":"Bank Services",
+      "rating":3,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.551455,
+         12.008141
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"GT Bank",
+      "services":"Bank Services",
+      "rating":5,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.551455,
+         12.008141
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"First Bank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.544679,
+         12.007932
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Sky Bank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.548213,
+         12.007463
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"City Bank",
+      "services":"",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54198,
+         12.00728
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Sterling Bank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54221,
+         12.007
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Skybank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54339,
+         12.0092
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Unity Bank ",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54221,
+         12.007
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Central Bank Of Nigeria",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54221,
+         12.007
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"First Bank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54221,
+         12.007
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Bank",
+      "place_name":"Union Bank",
+      "services":"Bank Services",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/bank.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Bank"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54422,
+         12.00461
+      ]
+   }
+},
+{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Food",
+      "place_name":"Yahuza Suya Spot",
+      "services":"Suya",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/food.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Food"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.5611,
+         11.98998
+      ]
+   }
+},{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Food",
+      "place_name":"Dalal",
+      "services":"Burgers & Softdrinks",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/food.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Food"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.54175,
+         12.00279
+      ]
+   }
+},{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Food",
+      "place_name":"Chikenza",
+      "services":"Suya & Softdrinks",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/food.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Food"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.55174,
+         11.99414
+      ]
+   }
+},{  
+   "type":"Feature",
+   "properties":{  
+      "group_name":"Food",
+      "place_name":"7 30",
+      "services":"Food & Softdrinks",
+      "rating":4,
+      "icon":{  
+         "iconUrl":"assets/food.png",
+         "iconSize":[  
+            48,
+            48
+         ],
+         "iconAnchor":[  
+            50,
+            50
+         ],
+         "popupAnchor":[  
+            0,
+            -55
+         ],
+         "className":"Food"
+      }
+   },
+   "geometry":{  
+      "type":"Point",
+      "coordinates":[  
+         8.5514,
+         11.99098
+      ]
+         }
+      }
+   ]
+}
