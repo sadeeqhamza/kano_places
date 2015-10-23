@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'chalk';
+    src: url('Chalkdust.ttf');
+}
+
+.font-12 {
+    font-size: 12px!important;
+    font-weight: 500!important;
+}
+
+.font-15 {
+    font-size: 21px!important;
+}
+
+.font-bluejay {
+    font-family: 'blueJay';
+}
+
+.font-soRandom {
+    font-family: 'SoRandom';
+}
+
+.font-chalk {
+    font-family: 'chalk';
+}
+.font-lego{
+    font-family: 'KGLegoHouse.ttf';
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+.topNav{
+    height: auto;
+}
+}
+@media only screen and (max-width: 992px) {
+.topNav{
+    height: auto;
+}
+}
+@media only screen and (min-width: 992px) {
+.font-r{
+    font-size: 38px!important;
+}
+}
+
+main #home {
+    margin-top: 23px;
+}
+
+#map {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.topNav {
+    background-image: url("bg.png");
+    min-height: 320px;
+    margin-top: -6px;
+    z-index: -1000!important;
+}
+
+.navIcons {
+    line-height: 60px!important;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        height:64px;
+    }
+    .input-field{
+        top:-3px;
+    }
+    #searchBx {
+        left: 145px;
+
+    }
+    nav .button-collapse i{
+    line-height: 56px;
+}
+
+
+}
+@media only screen and (max-width: 992px) {
+  .input-field{
+        top:-3px;
+    }
+    nav .button-collapse-cus i,nav .button-collapse i{
+    line-height: 56px;
+}
+}
+@media only screen and (min-width: 992px) {
+.input-field{
+        top:-3px;
+    }
+}
+nav a.button-collapse-cus, nav a.button-collapse-cus i {
+    height: 64px;
+    line-height: 64px;
+}
+.button-collapse-cus{
+        float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+}
+nav .button-collapse-cus i {
+    font-size: 2.7rem;
+    height: 56px;
+
+}
+#searchBx {
+    
+    position: absolute;
+     top: 58px;
+    right: 239.7px;
+    width: 200px;
+    bottom: 0;
+    height: 70%;
+    overflow-x: auto;
+    overflow:scroll; 
+    background:#009688;
+    margin: 0;
+    padding: 5px;
+    z-index: 30000;
+}
+
+#directionBx {
+    
+    position: absolute;
+  top: 75px;
+    left: 45px;
+    width: 300px;  
+    bottom: 0;
+    height: 70%;
+    overflow-x: auto;
+    background: #fff;
+    margin: 0;
+    padding: 5px;
+    z-index: 300;
+
+}
+#marker-list li {
+    padding: 5px;
+    margin: 0;
+    list-style-type: none;
+}
+
+#marker-list li:hover {
+    background: #004d40;
+}
+
+#searchBx label {
+    color: #fff
+}
+
+#errors,
+#directions {
+    position: absolute;
+
+}
+
+#inputs {
+    z-index: 10;
+    top: 10px;
+
+}
+
+#directions {
+    z-index: 99;
+    background: #009688;
+    top: 170px;
+    width: 300px;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+#errors {
+    z-index: 8;
+    opacity: 0;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    background: rgba(0,0,0,.25);
+    top: 90px;
+    left: 10px;
+}

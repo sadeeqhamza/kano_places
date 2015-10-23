@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Little Tots Day Care Abuja">
+    <meta name="keywords" content="Little Tots Day Care,Day Care Abuja,Abuja">
+    <meta name="author" content="Sadeeq Hamza">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="css/mystyle.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/ico" sizes="32x32">
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.css' type='text/css' />
+    <title>KANO SPOTS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="teal">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu white-text text-darken-1"></i></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="index.html" class="white-text text-darken-1 font-12"><i class="material-icons navIcons white-text text-darken-4  left font-15">arrow_back</i>Back</a></li>
+                        <li><a href="faq.html" class="white-text text-darken-1 font-12"><i class="material-icons navIcons  white-text text-darken-4 left font-15">help</i>Help</a></li>
+                        <li><a href="!#" class="white-text text-darken-1 font-12"><i class="material-icons navIcons  white-text text-darken-4 left font-15">directions</i>Navigate</a></li>
+                    </ul>
+                    <ul id="slide-out" class="side-nav">
+                    </ul>
+                </div>
+                <div class="nav-wrapper right">
+                    <div class="container">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" class="font-15 white" style="line-height:50px;margin-top:10px" type="search" required>
+                                <label for="search"><i class="material-icons font-15 black-text" style="line-height:50px">search</i></label>
+                                <i id="show-icon" style="line-height:50px" class="material-icons font-15">visibility_off</i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+            <div id="map"></div>
+            <ul id="searchBx" class="hide-on-small-only card" style="opacity:0.9;">
+                <li>
+                    <ul id='marker-list' class="white-text" style="font-weight:300;">
+                    </ul>
+                </li>
+            </ul>
+            <div id="directionBx" class="hide-on-small-only left card" style="opacity:0.9;">
+                <div id='inputs'></div>
+                <div class="container">
+                    <div class="row">
+                        <div id='errors'></div>
+                        <div id='directions'>
+                            <div id='routes'></div>
+                            <div id='instructions'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/other.js"></script>
+</body>
+
+</html>

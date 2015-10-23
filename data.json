@@ -1,0 +1,56 @@
+[
+  {
+    "en": "Home",
+    "ha": "Gida",
+    "ig": "Na Home",
+    "ar": "الصفحة الرئيسية",
+    "yr": "Home",
+    "ch": "主页",
+    "gr": "Heim",
+    "hn":"Ghara"
+  },
+  {
+    "en": "Contact",
+    "ha": "Lamba",
+    "ig": "Kpọtụrụ",
+    "ar": "اتصل",
+    "yr": "Kan si",
+    "ch": "联系方式",
+    "gr": "Berührung",
+    "hn": "Samparka"
+  },
+    {
+    "en": "Map",
+    "ha": "Wurare",
+    "ig": "n'ebe ndị",
+    "ar": "الأماكن",
+    "yr": "ibiti",
+    "ch": "地图",
+    "gr": "Karte",
+    "hn":"Sthānōṁ"
+  },
+  
+    {
+    "en": "FAQ",
+    "ha": "taimake ka",
+    "ig": "Egba Mi O",
+    "ar": "مساعدة",
+    "yr": "Enyemaka",
+    "ch": "帮帮我",
+    "gr": "Hilfe",
+    "hn":"Madada"
+  }
+  ,
+   {
+    "en": "Helping You Discover New Locations",
+    "ha": "Taimaka ka Gano Sabon Wurare",
+    "ig": "Inyere ị na-achọpụta Nú n'ebe ndị",
+    "ar": "تساعدك على اكتشاف الأماكن جديدة",
+    "yr": "Ríran Àwọn ọ Iwari titun ibiti",
+    "ch": "帮助你发现新的地方",
+    "gr": "Hilfe",
+    "hn":"Madada"
+  }
+
+
+]

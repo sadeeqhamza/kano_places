@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Locations in Kano, Nigeria">
+    <meta name="keywords" content="Kano,Locations,Spots,Hospitals,Banks,Schools">
+    <meta name="author" content="Sadeeq Hamza">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="css/mystyle.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/ico" sizes="32x32">
+    <title>KANO SPOTS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="white darken-4 z-depth-1">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu blue-grey-text text-darken-1"></i></a>
+                    <div class="nav-wrapper"><a href="#" class="brand-logo light-blue-text text-darken-4 font-15" style="font-weight:500;">KANO SPOTS</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="blue-grey-text text-darken-1 font-12"><i class="material-icons navIcons light-blue-text text-darken-4 left font-15">home</i> <span class="sourceText">Home</span></a></li>
+                            <li><a href="map.html" class="blue-grey-text text-darken-1 font-12"><i class="material-icons navIcons light-blue-text text-darken-4 left font-15">map</i> <span class="sourceText">Map</span></a></li>
+                            <li><a href="map.html" class="blue-grey-text text-darken-1 font-12"><i class="material-icons navIcons light-blue-text text-darken-4 left font-15">info</i><span class="sourceText">Contact</span></a></li>
+                            <li><a href="index.html" class="blue-grey-text text-darken-1 font-12"><i class="material-icons navIcons  light-blue-text text-darken-4 left font-15">help</i> <span class="sourceText">FAQ</a></li>
+                        </ul>
+                        <ul id="slide-out" class="side-nav">
+                            <li><a href="badges.html" class="orange-text text-darken-4">HOME</a></li>
+                            <li><a href="#!" class="dropdown-button orange-text text-darken-4"> PROGRAMS</a></li>
+                            <li><a href="collapsible.html" class="orange-text text-darken-4">CONTACT US</a></li>
+                            <li><a href="collapsible.html" class="orange-text text-darken-4">ABOUT US</a></li>
+                            <li><a href="collapsible.html" class="orange-text text-darken-4">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+        <nav class="topNav z-depth-0 white darken-4">
+
+    <div class="row center">
+                    <div class="col s12 m12 l12 ">
+                    <img src="logo.png"  id="logo" alt="Smiley face">
+          </div>
+          </div>
+        </nav>
+        <main>
+    <div class="row">
+    <div class="container">
+        <ul class="collection with-header" style=" border: none;">
+         <li class="collection-header indigo-text center font-chalk"><h4>Map Legend</h4><h3 id="count" class="center light-blue-text"></h3>
+</li>
+            <li class="collection-item avatar">
+                <img src="assets/airport.png" alt="Bank" class="circle">
+                 <span class="title">Airport</span>
+                <p id="airport-count">0 spots available</p>        
+                <a href="map.html" id="airport-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+            <li class="collection-item avatar">
+               <img src="assets/bank.png" alt="" class="circle">
+                <span class="title">Bank</span>
+               <p id="bank-count">0 spots available</p>        
+                <a href="map.html" id="bank-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                  <li class="collection-item avatar">
+               <img src="assets/barbers.png" alt="" class="circle">
+                <span class="title">Barber Shop</span>
+               <p id="barber-count">0 spots available</p>        
+                <a href="map.html" id="barber-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+            <li class="collection-item avatar">
+           <img src="assets/car.png" alt="" class="circle">
+                <span class="title">Car Repair</span>
+                              <p id="car-count">0 spots available</p>        
+                <a href="map.html" id="car-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/other.png" alt="" class="circle">
+                <span class="title">Cinema</span>
+                               <p id="cinema-count">0 spots available</p>        
+                <a href="map.html" id="cinema-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+            <li class="collection-item avatar">
+               <img src="assets/church.png" alt="" class="circle">
+                <span class="title">Church</span>
+                               <p id="church-count">0 spots available</p>        
+                <a href="map.html" id="church-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+
+            </li>
+             <li class="collection-item avatar">
+               <img src="assets/food.png" alt="" class="circle">
+                <span class="title">Food</span>
+                               <p id="food-count">0 spots available</p>        
+                <a href="map.html" id="food-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+
+            </li>
+             <li class="collection-item avatar">
+               <img src="assets/government.png" alt="" class="circle">
+                <span class="title">Government</span>
+                               <p id="gov-count">0 spots available</p>        
+                <a href="map.html" id="gov-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+
+            </li>
+              <li class="collection-item avatar">
+               <img src="assets/hospital.png" alt="" class="circle">
+                <span class="title">Hospital</span>
+                               <p id="hospital-count">0 spots available</p>        
+                <a href="map.html" id="hosp-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/hotel.png" alt="" class="circle">
+                <span class="title">Hotel</span>
+                               <p id="hotel-count">0 spots available</p>        
+                <a href="map.html" id="hotel-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+             <li class="collection-item avatar">
+               <img src="assets/other.png" alt="" class="circle">
+                <span class="title">Land Mark</span>
+                               <p id="land-count">0 spots available</p>        
+                <a href="map.html" id="land-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/other.png" alt="" class="circle">
+                <span class="title">Shopping Mall</span>
+                               <p id="mall-count">0 spots available</p>        
+                <a href="map.html" id="mall-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+               <li class="collection-item avatar">
+               <img src="assets/mosque.png" alt="" class="circle">
+                <span class="title">Mosque</span>
+                               <p id="mosque-count">0 spots available</p>        
+                <a href="map.html" id="mosque-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                  <li class="collection-item avatar">
+               <img src="assets/other.png" alt="" class="circle">
+                <span class="title">Other</span>
+                               <p id="other-count">0 spots available</p>        
+                <a href="map.html" id="other-link" id="other-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/petrol.png" alt="" class="circle">
+                <span class="title">Petrol Station</span>
+                               <p id="petrol-count">0 spots available</p>        
+                <a href="map.html" id="petrol-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/studio.png" alt="" class="circle">
+                <span class="title">Photo Studio</span>
+                               <p id="studio-count">0 spots available</p>        
+                <a href="map.html" id="studio-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+             <li class="collection-item avatar">
+               <img src="assets/police.png" alt="" class="circle">
+                <span class="title">Police Station</span>
+                               <p id="police-count">0 spots available</p>        
+                <a href="map.html" id="police-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                <li class="collection-item avatar">
+               <img src="assets/saloon.png" alt="" class="circle">
+                <span class="title">Saloon</span>
+                               <p id="saloon-count">0 spots available</p>        
+                <a href="map.html" id="saloon-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+              <li class="collection-item avatar">
+               <img src="assets/school.png" alt="" class="circle">
+                <span class="title">School</span>
+                               <p id="school-count">0 spots available</p>        
+                <a href="map.html" id="school-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/shop.png" alt="" class="circle">
+                <span class="title">Sports</span>
+                               <p id="sports-count">0 spots available</p>        
+                <a href="map.html" id="sports-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+                 <li class="collection-item avatar">
+               <img src="assets/other.png" alt="" class="circle">
+                <span class="title">Shop</span>
+                               <p id="shop-count">0 spots available</p>        
+                <a href="map.html" id="shop-link" class="secondary-content"><i class="material-icons blue-text">send</i></a>
+            </li>
+        </ul </div>
+        </div>
+</main>
+
+    </header>
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text sourceText">Contact</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!"><b>Email:</b> sid0793@googlemail.com</a></li>
+                        <li>
+                            <a class="white-text" href="#!"> <b>Mobile:</b> 09094414118</a>
+                        </li>
+                    </ul>
+                    <script src="https://apis.google.com/js/platform.js" async defer></script>
+                    <div class="g-follow" data-annotation="vertical-bubble" data-height="24" data-href="//plus.google.com/u/0/107234342646369054379" data-rel="author"></div>
+                </div>
+                <div class="col l6"> <a class="twitter-timeline" href="https://twitter.com/msmith0793" data-widget-id="652299570177814528">Tweets by @msmith0793</a>
+                    <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright"></div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+    <script type="text/javascript" src="js/test.js"></script>
+
+    <script type="text/javascript" src="js/help.js"></script>
+<script type="text/javascript" src="js/lang.js"></script>
+</body>
+
+</html>

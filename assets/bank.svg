@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#989898;}
+	.st1{opacity:0.85;}
+	.st2{fill:#024E41;}
+	.st3{fill:#079247;}
+	.st4{fill:none;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'Roboto-Regular';}
+	.st7{font-size:25.5962px;}
+</style>
+<g id="XMLID_1_">
+	<ellipse id="XMLID_1062_" class="st0" cx="24" cy="43.4" rx="6.9" ry="2.7"/>
+	<g id="XMLID_32_" class="st1">
+		<polygon id="XMLID_31_" class="st2" points="16.5,35.7 31.5,35.7 24,43.6 24,43.6 		"/>
+		<circle id="XMLID_3_" class="st2" cx="24" cy="20.2" r="18.3"/>
+		<circle id="XMLID_28_" class="st3" cx="24" cy="20.2" r="14.4"/>
+		<rect id="XMLID_17_" x="16.7" y="10.9" class="st4" width="14.6" height="19.4"/>
+		<text id="XMLID_29_" transform="matrix(1 0 0 1 16.7194 30.132)" class="st5 st6 st7">$</text>
+	</g>
+</g>
+</svg>
