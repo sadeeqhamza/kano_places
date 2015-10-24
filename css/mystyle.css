@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'chalk';
-    src: url('Chalkdust.ttf');
+    src: url('ChalkDust.ttf');
+}
+
+@font-face {
+    font-family: 'test';
+    src: url('Cassannet.otf');
 }
 
 .font-12 {
@@ -12,19 +17,12 @@
     font-size: 21px!important;
 }
 
-.font-bluejay {
-    font-family: 'blueJay';
-}
-
-.font-soRandom {
-    font-family: 'SoRandom';
-}
-
 .font-chalk {
     font-family: 'chalk';
 }
-.font-lego{
-    font-family: 'KGLegoHouse.ttf';
+
+.font-test {
+    font-family: 'test';
 }
 
 @media only screen and (max-width: 992px) {
@@ -36,20 +34,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .banner {
+        height: auto;
+    }
+}
 
-.topNav{
-    height: auto;
-}
-}
 @media only screen and (max-width: 992px) {
-.topNav{
-    height: auto;
+    .banner {
+        height: auto;
+    }
 }
-}
+
 @media only screen and (min-width: 992px) {
-.font-r{
-    font-size: 38px!important;
-}
+    .font-r {
+        font-size: 38px!important;
+    }
 }
 
 main #home {
@@ -65,84 +64,89 @@ main #home {
     height: 100%;
 }
 
-.topNav {
-    background-image: url("bg.png");
-    min-height: 320px;
-    margin-top: -6px;
-    z-index: -1000!important;
+.banner,#help-page{
+       background-image: url("bg.png");
+      z-index: -1000!important;
 }
-
+#help-page{
+    min-height: 300px;
+    }
+.banner {
+    min-height: 520px;
+}
 .navIcons {
     line-height: 60px!important;
 }
 
 @media only screen and (max-width: 600px) {
-    nav{
-        height:64px;
+    nav {
+        height: 64px;
     }
-    .input-field{
-        top:-3px;
+    .input-field {
+        top: -3px;
     }
     #searchBx {
         left: 145px;
-
     }
-    nav .button-collapse i{
-    line-height: 56px;
+    nav .button-collapse i {
+        line-height: 56px;
+    }
 }
 
-
-}
 @media only screen and (max-width: 992px) {
-  .input-field{
-        top:-3px;
+    .input-field {
+        top: -3px;
     }
-    nav .button-collapse-cus i,nav .button-collapse i{
-    line-height: 56px;
+    nav .button-collapse-cus i,
+    nav .button-collapse i {
+        line-height: 56px;
+    }
 }
-}
+
 @media only screen and (min-width: 992px) {
-.input-field{
-        top:-3px;
+    .input-field {
+        top: -3px;
     }
 }
-nav a.button-collapse-cus, nav a.button-collapse-cus i {
+
+nav a.button-collapse-cus,
+nav a.button-collapse-cus i {
     height: 64px;
     line-height: 64px;
 }
-.button-collapse-cus{
-        float: left;
+
+.button-collapse-cus {
+    float: left;
     position: relative;
     z-index: 1;
     height: 56px;
 }
+
 nav .button-collapse-cus i {
     font-size: 2.7rem;
     height: 56px;
-
 }
+
 #searchBx {
-    
     position: absolute;
-     top: 58px;
+    top: 58px;
     right: 239.7px;
     width: 200px;
     bottom: 0;
     height: 70%;
     overflow-x: auto;
-    overflow:scroll; 
-    background:#009688;
+    overflow: scroll;
+    background: #009688;
     margin: 0;
     padding: 5px;
     z-index: 30000;
 }
 
 #directionBx {
-    
     position: absolute;
-  top: 75px;
+    top: 75px;
     left: 45px;
-    width: 300px;  
+    width: 300px;
     bottom: 0;
     height: 70%;
     overflow-x: auto;
@@ -150,8 +154,8 @@ nav .button-collapse-cus i {
     margin: 0;
     padding: 5px;
     z-index: 300;
-
 }
+
 #marker-list li {
     padding: 5px;
     margin: 0;
@@ -169,13 +173,11 @@ nav .button-collapse-cus i {
 #errors,
 #directions {
     position: absolute;
-
 }
 
 #inputs {
     z-index: 10;
     top: 10px;
-
 }
 
 #directions {
@@ -193,7 +195,10 @@ nav .button-collapse-cus i {
     opacity: 0;
     padding: 10px;
     border-radius: 0 0 3px 3px;
-    background: rgba(0,0,0,.25);
+    background: rgba(0, 0, 0, .25);
     top: 90px;
     left: 10px;
+}
+.mapbox-directions-reverse-input {
+    right: 60px!important;
 }

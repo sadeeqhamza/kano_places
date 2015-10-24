@@ -6,8 +6,9 @@ $(document).ready(function() {
 jQuery(document).ready(function($) {
     L.mapbox.accessToken ='pk.eyJ1Ijoic2FkZWVxaGFtemE5MiIsImEiOiJCYTlIX0tFIn0.01iv4vJRDdsqClbUnlncSQ';
     var map = L.mapbox.map('map', 'sadeeqhamza92.mhnc2m9l').setView([12.0000, 8.5167], 15);
-     var RADIUS = 500;
-    var marker = L.marker([11.990545360380963, 8.531827926635742], {
+ 
+    map.on('ready', function() {
+   var marker = L.marker([11.990545360380963, 8.531827926635742], {
         icon: L.mapbox.marker.icon({
             'marker-color': '#000000',
             'marker-size': 'large',
@@ -15,21 +16,19 @@ jQuery(document).ready(function($) {
         }),
         draggable: true
     }).addTo(map);
-    var filterCircle = L.circle(L.latLng(40, -75), RADIUS, {
-        opacity: 1,
-        weight: 1,
-        fillOpacity: 0.1
-    }).addTo(map);
-
-//ADD MARKERS//
-var featureLayer = L.mapbox.featureLayer().loadURL('assets/map.geojson').addTo(map);
- featureLayer.on('layeradd', function(e) {
+   var featureLayer = L.mapbox.featureLayer().loadURL('assets/map.geojson').addTo(map);
+    featureLayer.on('layeradd', function(e) {
         var marker = e.layer,
         feature = marker.feature;
         marker.setIcon(L.icon(feature.properties.icon));
         var popupContent = '<b>' + feature.properties.title + '</b>';
         marker.bindPopup(popupContent);           
     });
+});
+
+//ADD MARKERS//
+
+
 //FILTER MARKERS FROM OTHER LINKS//
 if(localStorage.filterGroup){
      featureLayer.setFilter(function(f) {
@@ -41,9 +40,7 @@ if(localStorage.filterGroup){
 }
      
  //FILTER CIRCLE//   
-    map.on('mousemove', function(e) {
-        filterCircle.setLatLng(e.latlng);
-    });
+    
  //MARKER EVENT LISTENERS//   
     featureLayer.on('mouseover', function(e) {
         e.layer.openPopup();
