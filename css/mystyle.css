@@ -37,6 +37,9 @@
     .banner {
         height: auto;
     }
+    .mobile-center{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -51,8 +54,8 @@
     }
 }
 
-main #home {
-    margin-top: 23px;
+.page-footer {
+    margin-top: 0!important;
 }
 
 #map {
@@ -67,15 +70,20 @@ main #home {
 .banner,#help-page{
        background-image: url("bg.png");
       z-index: -1000!important;
+      padding-top: 10px;
 }
 #help-page{
     min-height: 300px;
     }
 .banner {
-    min-height: 520px;
+    min-height: 352px;
 }
 .navIcons {
     line-height: 60px!important;
+}
+.bg{
+         background-image: url("bg2.png");
+ 
 }
 
 @media only screen and (max-width: 600px) {
@@ -201,4 +209,14 @@ nav .button-collapse-cus i {
 }
 .mapbox-directions-reverse-input {
     right: 60px!important;
+}
+.select-wrapper span.caret {
+ 
+   top: 0; 
+   
+}
+nav .input-field label {
+    top: -32px;
+    left:182px;
+    
 }

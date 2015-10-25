@@ -1,4 +1,5 @@
     $(document).ready(function() {
+            $(".button-collapse").sideNav();
         //Filter Group///
         if (localStorage.filterGroup) {
             localStorage.removeItem("filterGroup");
@@ -12,4 +13,7 @@
         $('#hosp-filter').click(function() {
             localStorage.setItem("filterGroup", "Hospital");
         });
+      
+    $('select').material_select();
+ 
     });
