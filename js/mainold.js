@@ -2,8 +2,9 @@ $(document).ready(function() {
     $(".button-collapse").sideNav();
     $(".collapsible").collapsible();
     $("#searchBx").hide();
+    $("#directionBx").hide();
     L.mapbox.accessToken = 'pk.eyJ1Ijoic2FkZWVxaGFtemE5MiIsImEiOiJCYTlIX0tFIn0.01iv4vJRDdsqClbUnlncSQ';
-    var map = L.mapbox.map('map', 'sadeeqhamza92.mhnc2m9l').setView([12.0000, 8.5167], 15);
+    var map = L.mapbox.map('map', 'sadeeqhamza92.o0f2dhgi').setView([12.0000, 8.5167], 13);
     map.on('ready', function() {
         var marker = L.marker([11.990545360380963, 8.531827926635742], {
             icon: L.mapbox.marker.icon({
@@ -55,8 +56,10 @@ $(document).ready(function() {
                     var markerList = document.getElementById(theDiv);
                     featureLayer.eachLayer(function(layer) {
                         var item = markerList.appendChild(document.createElement('li'));
-                        item.innerHTML = layer.toGeoJSON().properties.title;
+                        item.className = "collection-item avatar";
+                        item.innerHTML =   "<img src='"+layer.toGeoJSON().properties.icon.iconUrl + "'alt='' class='circle'>"+ "<span class='title'>"+layer.toGeoJSON().properties.title+"</span>"+ "<p>"+layer.toGeoJSON().properties.services+"</p>"+"<a href='#!' class='secondary-content'><i class='material-icons'>send</i></a>";
                         item.onclick = function() {
+                            $('.button-collapse').sideNav('hide');
                             map.setView(layer.getLatLng(), 14);
                             layer.openPopup();
                         };
@@ -77,6 +80,11 @@ $(document).ready(function() {
                 search();
                 showData('marker-list');
             });
+                 $("#mob-search").keyup(function() {
+                $("#marker-list").empty();
+                search();
+                showData('mob-marker-list');
+            });
             //SEARCH//
             function search() {
                 var searchString = $('#search').val().toLowerCase();
@@ -90,24 +98,26 @@ $(document).ready(function() {
         });
     });
     //HIDE/SHOW BUTTONS//
-    $("#show-icon").click(function() {
+    $("#show-btn").click(function() {
         if ($("#searchBx").is(":visible")) {
-            $("#searchBx").fadeOut();
+            $("#searchBx").hide();
             console.log("visible");
             document.getElementById("show-icon").innerText = "visibility";
         } else {
-            $("#searchBx").fadeIn();
+            $("#searchBx").show();
             document.getElementById("show-icon").innerText = "visibility_off";
         }
     });
-    $("#directions-btn").click(function() {
+    $(".directions-btn").click(function() {
         if ($("#directionBx").is(":visible")) {
-            $("#directionBx").fadeOut();
+            $("#directionBx").hide();
         } else {
-            $("#directionBx").fadeIn();
+            $("#directionBx").show();
         }
     });
     $("#directions-btn").click(function() {
         $("#dir-icon").addClass("yellow-text");
     });
+
+    
 });

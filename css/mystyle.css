@@ -64,7 +64,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
+    z-index: 0;
 }
 
 .banner,#help-page{
@@ -80,6 +81,9 @@
 }
 .navIcons {
     line-height: 60px!important;
+}
+#slide-out{
+    z-index: 30000!important;
 }
 .bg{
          background-image: url("bg2.png");
@@ -137,23 +141,24 @@ nav .button-collapse-cus i {
 
 #searchBx {
     position: absolute;
-    top: 58px;
-    right: 239.7px;
-    width: 200px;
+   top: 58px;
+    left: 45px;
+  
+    width: 350px;
     bottom: 0;
-    height: 70%;
+    height: 50%;
     overflow-x: auto;
     overflow: scroll;
-    background: #009688;
+    background: #fff ;
     margin: 0;
     padding: 5px;
-    z-index: 30000;
+    z-index: 300;
 }
 
 #directionBx {
     position: absolute;
-    top: 75px;
-    left: 45px;
+  top: 58px;
+    right: 45px;
     width: 300px;
     bottom: 0;
     height: 70%;
@@ -165,13 +170,11 @@ nav .button-collapse-cus i {
 }
 
 #marker-list li {
-    padding: 5px;
-    margin: 0;
-    list-style-type: none;
+  
 }
 
 #marker-list li:hover {
-    background: #004d40;
+    background: #F3F3F3;
 }
 
 #searchBx label {

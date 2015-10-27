@@ -21,45 +21,53 @@
 
 <body>
     <header>
-     <div class="navbar-fixed">
-        <nav class="teal">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#" data-activates="slide-out" class="button-collapse-cus hide-on-large-only"><i class="material-icons">more_vert</i></a>
-                    <a href="#!" id="directions-btn" class="button-collapse-cus hide-on-large-only"><i id="dir-icon" class="material-icons">directions</i></a>
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li><a href="index.html" class="white-text text-darken-1 font-12"><i class="material-icons navIcons white-text text-darken-4  left font-15">arrow_back</i>Back</a></li>
-                        <li><a href="faq.html" class="white-text text-darken-1 font-12"><i class="material-icons navIcons  white-text text-darken-4 left font-15">help</i>Help</a></li>
-                        <li><a href="#!" class="white-text text-darken-1 font-12"><i class="material-icons navIcons  white-text text-darken-4 left font-15">directions</i>Navigate</a></li>
-                    </ul>
-                    <ul id="slide-out" class="side-nav teal">
-                    </ul>
-                </div>
-                <div class="nav-wrapper right">
-                    <div class="container">
+        <div class="navbar-fixed">
+            <nav class="teal">
+           
+                    <div class="nav-wrapper">
+                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">more_vert</i></a>
+                        <a href="#!"  class="button-collapse right directions-btn"><i id="dir-icon" class="material-icons">directions</i></a>
+                        <a href="#" class="brand-logo white-text font-15 font-test center" style="font-weight:500;">NAIJA-SPOTS</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="white-text text-darken-1 font-12"><i class="material-icons navIcons white-text text-darken-4  left font-15">arrow_back</i>Back</a></li>
+                            <li><a href="faq.html" class="white-text text-darken-1 font-12"><i class="material-icons navIcons  white-text text-darken-4 left font-15">help</i>Help</a></li>
+                            <li><a href="#!" id="" class="white-text text-darken-1 font-12 directions-btn"><i class="material-icons navIcons  white-text text-darken-4 left font-15">directions</i>Navigate</a></li>
+                        </ul>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down">
+                            <li>
+                                <a href="#!" id="show-btn" class="white-text text-darken-1 font-12"> <i id="show-icon" class="material-icons font-15 left">visibility_off</i>Hide</a>
+                            </li>
+                            <li>
+                                <form>
+                                    <div class="input-field">
+                                        <input id="search" class="font-12 white" style="line-height:50px;margin-top:10px" type="search" required>
+                                       <i class="material-icons font-15 black-text" style="line-height:50px">search</i>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                        <ul id="slide-out" class="side-nav">
                         <form>
-                            <div class="input-field">
-                                <input id="search" class="font-15 white" style="line-height:50px;margin-top:10px" type="search" required>
-                                <label for="search"><i class="material-icons font-15 black-text" style="line-height:50px">search</i></label>
-                              <i id="show-icon" style="line-height:50px" class="material-icons font-15">visibility_off</i>
-                            </div>
-                        </form>
+                                    <div class="input-field">
+                                        <input id="mob-search" class="font-12 white" style="line-height:50px;margin-top:10px" type="search" required>
+                                       <i class="material-icons font-15 black-text" style="line-height:50px">search</i>
+                                    </div>
+                                </form>
+                                <ul class="collection teal-text" id='mob-marker-list'>
+                </ul>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </nav>
+              
+            </nav>
         </div>
     </header>
     <main>
         <div class="container">
-           
             <div id="map"></div>
-            <ul id="searchBx" class="card" style="opacity:0.9;">
-                <li>
-                    <ul id='marker-list' class="white-text" style="font-weight:300;">
-                    </ul>
-                </li>
-            </ul>
+            <div id="searchBx" class="" style="opacity:0.9;">
+                <ul id='marker-list' class="collection card">
+                </ul>
+            </div>
             <div id="directionBx" class="card" style="opacity:0.9;">
                 <div id='inputs'></div>
                 <div class="container">
